@@ -5,12 +5,10 @@
             table form
         </title>
         <style>
-            table{ font-family: Arial, sans-serif; border-collapse: collapse; width: 60%}
+            table{ font-family: Arial, sans-serif; border-collapse: collapse; width: 50%}
 
-            td{border: 1px solid black; text-align: center;}
-            th{border: 1px solid #000; text-align: left; padding: 5px}
+            td, th{border: 1px solid #000; text-align: center; padding: 5px}
 
-            tr:nth-child(even) {background-color: aliceblue;}
         </style>
     </head>
     <body>
@@ -30,17 +28,17 @@
             <table>
                 <tr>
                     <div>
-                            <td>チーム名</td>
-                            <td>1</td>
-                            <td>2</td>
-                            <td>3</td>
-                            <td>4</td>
-                            <td>5</td>
-                            <td>6</td>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>9</td>
-                            <td>計</td>
+                            <th>チーム名</th>
+                            <th>1</th>
+                            <th>2</th>
+                            <th>3</th>
+                            <th>4</th>
+                            <th>5</th>
+                            <th>6</th>
+                            <th>7</th>
+                            <th>8</th>
+                            <th>9</th>
+                            <th>計</th>
                     </div>
                 </tr>
                 <tr>
@@ -74,15 +72,23 @@
                     </div>
                 </tr>
             </table>
+            <p> </p>
         </div>
             <table>
                 <tr>
-                    <th rowspan="3">バッテリー</th>
-                    <td colspan="5">Honda熊本</td>
-                    <td colspan="5">パナソニック</td>
+                    <th rowspan="2">バッテリー</th>
+                    <th colspan="5">Honda熊本</th>
+                    <th colspan="5">パナソニック</th>
                 </tr>
                 <tr>
-                    <td rowspan="2">投手：島袋、福田、横川、内田、高山、中津 ; 捕手：竹葉</td>
+                    <td colspan="5">
+                        <p>投手：島袋、福田、横川、内田、高山、中津</p> 
+                        <p>捕手：竹葉</p>
+                    </td>
+                    <td colspan="5">
+                        <p>投手：榎本</p>
+                        <p>捕手：川上</p>
+                    </td>
                 </tr>
             </table>
     </body>
