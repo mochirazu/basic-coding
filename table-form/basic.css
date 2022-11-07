@@ -4,10 +4,11 @@ body{  border: 2px solid black;
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
-    background-color: lightblue;}
+    background-color: rgb(209, 193, 214);}
 
 
 
 table{ font-family: Arial, sans-serif; border-collapse: collapse; width: 100%; padding: 20px;}
 
 td, th{border: 1px solid #000; text-align: center; padding: 5px}
+
