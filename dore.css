@@ -1,4 +1,12 @@
-@import url();
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body{
+    font-family: 'Roboto Slab', sans-serif ;
+}
+
+.font-roboto{
+    font-family: 'Roboto Slab', serif;
+}
 
 .container {
     width: 100%;
@@ -22,7 +30,7 @@
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 #project ul li{
