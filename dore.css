@@ -103,11 +103,6 @@ p {
     transform: scale(1.5);
 }
 
-@media only screen and (max-width: 900px) {
-    .container {
-        padding: 0 10px 15px;
-    }
-}
 
 /*zoo*/
 
@@ -137,7 +132,7 @@ p {
 #zoo .top h1 { 
     color: rgb(255, 221, 229);
     z-index: 10;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Slab', cursive;
     font-size: 48px;
 }
 
@@ -150,12 +145,12 @@ p {
     padding: 20px 15px;
 }
 
-.binatang > li h2 {
+.binatang > li h3 {
     width: 100%;
 }
 
 .binatang {
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -171,7 +166,7 @@ p {
     width: 100%;
 }
 .source {
-    background: #db694d;
+    background: #db4d84;
     display: flex;
     padding: 15px 0;
     justify-content: center;
@@ -192,3 +187,18 @@ p {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 0 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .binatang li{
+        width: 100%;
+    }
+}
