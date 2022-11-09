@@ -109,4 +109,86 @@ p {
     }
 }
 
-/*==test
+/*zoo*/
+
+#zoo {
+    background: #e8e4e3;
+}
+#zoo .top {
+    background: url(zoo-basic/img/zoo.jpg) center no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#zoo .top::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(179, 56, 127, 0.678)
+}
+
+#zoo .top h1 { 
+    color: rgb(255, 221, 229);
+    z-index: 10;
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+}
+
+.binatang > li {
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0;
+    padding: 20px 15px;
+}
+
+.binatang > li h2 {
+    width: 100%;
+}
+
+.binatang {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.binatang li{
+    width: 48%;
+    list-style: none;
+}
+
+.binatang img {
+    display: block;
+    width: 100%;
+}
+.source {
+    background: #db694d;
+    display: flex;
+    padding: 15px 0;
+    justify-content: center;
+}
+.source ol {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.source ol li{
+    margin-right: 40px;    
+    color: #fff;
+}
+
+.source ol li a{
+    color: #fff;
+    text-decoration: none;
+}
+
