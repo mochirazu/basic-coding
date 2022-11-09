@@ -201,6 +201,10 @@ table{ font-family: Arial, sans-serif; border-collapse: collapse; width: 100%; p
 td, th{border: 1px solid #000; text-align: center; padding: 5px}
 .jodol{padding: 8px;}
 
+th :nth-child(even),td:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 @media only screen and (max-width: 900px) {
     .container {
         padding: 0 10px 15px;
