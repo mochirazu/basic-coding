@@ -10,18 +10,17 @@ body, html{
     overflow-x: hidden;
 }
 #story .top{
-    background: url(../img/images/story-teller_03.jpg);
+    background-image: url(../img/images/story-teller_03.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 .nav{
     text-align: right;
     position: absolute;
-    right:0%;
+    right:4%;
     top: 4%;
 }
 .nav a{
@@ -34,7 +33,7 @@ body, html{
     width: 1440px;
     color: #fff;
     position: absolute;
-    top: 40%;
+    top: 47%;
     left: 100%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -42,6 +41,7 @@ body, html{
 .journey h1{
     font-size: 62px;
     letter-spacing: 3px;
+    margin: 0;
 }
 .journey h2{
     font-size: 18px;
@@ -73,5 +73,10 @@ body, html{
 #story .mid{
     height: 100%;
     width: 100%;
-    max-width: 1440px;
+}
+.logo-mid{
+    display: flex;
+    position: absolute;
+    top: 110%;
+    right: 40%;
 }
