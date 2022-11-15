@@ -2,11 +2,13 @@ body, html{
     height: 100%;
     margin: 0;
 }
-
-#story{
-    background: #000032;
+.logo image{
+    width: 50px;
+    height: 30px;
 }
-
+#story{
+    background: #560e36;
+}
 #story .top{
     background: url(../img/images/story-teller_03.jpg);
     background-size: cover;
@@ -14,8 +16,23 @@ body, html{
     background-position: center;
     height: 100%;
 }
-
-.about span{
-    position: relative;
-    left: 100px;
+.nav{
+    text-align: right;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.journey{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+}
+.journey h1{
+    font-size: 62px;
+    letter-spacing: 5px;
 }
