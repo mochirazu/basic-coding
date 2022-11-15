@@ -1,6 +1,51 @@
 body, html{
     height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
+    display: block;
+}
+#story{
+    background: #560e36;
+    overflow-x: hidden;
+}
+#story .top{
+    background: url(../img/images/story-teller_03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.nav{
+    text-align: right;
+    position: absolute;
+    right:0%;
+    top: 4%;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 20px;
+}
+.journey{
+    width: 1440px;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.journey h1{
+    font-size: 62px;
+    letter-spacing: 3px;
+}
+.journey h2{
+    font-size: 18px;
+    letter-spacing: 3px;
 }
 .logo{
     display: flex;
@@ -25,41 +70,8 @@ body, html{
 .explore{
     background-image: linear-gradient(to right, #500c7a, #9f2f87);
 }
-#story{
-    background: #560e36;
-}
-#story .top{
-    background: url(../img/images/story-teller_03.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#story .mid{
     height: 100%;
-}
-.nav{
-    text-align: right;
-    position: absolute;
-    right: 100px;
-    top: 4%;
-}
-.nav a{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 20px;
-}
-.journey{
-    width: 90%;
-    color: #fff;
-    position: absolute;
-    top: 40%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-}
-.journey h1{
-    font-size: 62px;
-    letter-spacing: 3px;
-}
-.journey h2{
-    font-size: 18px;
-    letter-spacing: 3px;
+    width: 100%;
+    max-width: 1440px;
 }
