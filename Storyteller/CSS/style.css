@@ -5,9 +5,9 @@ body, html{
 .logo{
     display: flex;
     position: absolute;
-    top: 0%;
+    top: -1%;
     left: 5%;
-    width: 300px;
+    width: 200px;
     height: auto;
 }
 .explore{
@@ -19,7 +19,8 @@ body, html{
     text-decoration: none;
     display: inline-block;
     font-size: 27px;
-    margin: 4px 2px;
+    margin: 20px 2px;
+    cursor: pointer;
 }
 .explore{
     background-image: linear-gradient(to right, #500c7a, #9f2f87);
@@ -38,12 +39,12 @@ body, html{
     text-align: right;
     position: absolute;
     right: 100px;
-    top: 5%;
+    top: 4%;
 }
 .nav a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     padding: 20px;
 }
 .journey{
@@ -56,5 +57,9 @@ body, html{
 }
 .journey h1{
     font-size: 62px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+}
+.journey h2{
+    font-size: 18px;
+    letter-spacing: 3px;
 }
