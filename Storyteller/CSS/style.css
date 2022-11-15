@@ -10,6 +10,20 @@ body, html{
     width: 300px;
     height: auto;
 }
+.explore{
+    border: none;
+    border-radius: 0px 15px 0px 15px;
+    color: white;
+    padding: 23px 73px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 27px;
+    margin: 4px 2px;
+}
+.explore{
+    background-image: linear-gradient(to right, #500c7a, #9f2f87);
+}
 #story{
     background: #560e36;
 }
