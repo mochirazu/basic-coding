@@ -87,25 +87,38 @@ div{
     bottom: 10;
     padding: 50px;
     width: 100%;
-    height: 200px;
+    height: 350px;
     background-image: linear-gradient(to top, #641c35,#540d36 );
     z-index: 1;
 }
 .container img{
     position: absolute;
-    left: 37%;
-    top: 97%;
+    width: 300px;
+    height: auto;
+    left: 38%;
+    top: 105%;
     z-index: 2;
 }
 .box1{
     width: 65%;
     height: 500px;
-    left: 50px;
+    left: px;
     top: 110%;
     background: #fff6ec;
     position: absolute;
     padding: 25px;
     margin-top: 90px;
-    left: 20%;
+    left: 16%;
     z-index: 2;
+}
+.box1 p{
+    font-size: 18px;
+    text-align: left;
+}
+#ornamen .float{
+    width: 400px;
+    position: absolute;
+    top: -37%;
+    left: 76%;
+    z-index: 3;
 }
