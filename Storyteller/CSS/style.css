@@ -4,8 +4,11 @@ body, html{
     margin: 0;
     padding: 0;
 }
+div{
+    display: block;
+}
 #story{
-    background: #560e36;
+    background: #ffffff;
     overflow-x: hidden;
 }
 #story .top{
@@ -75,13 +78,34 @@ body, html{
 .explore{
     background-image: linear-gradient(to right, #500c7a, #9f2f87);
 }
-#story .mid{
-    height: 100%;
-    width: 100%;
+#about h3{
+    font-size: 48px;
 }
-.logo-mid{
-    display: flex;
+#about .box-out{
+    content: '';
+    position: relative;
+    bottom: 10;
+    padding: 50px;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to top, #641c35,#540d36 );
+    z-index: 1;
+}
+.container img{
     position: absolute;
+    left: 37%;
+    top: 97%;
+    z-index: 2;
+}
+.box1{
+    width: 65%;
+    height: 500px;
+    left: 50px;
     top: 110%;
-    right: 37%;
+    background: #fff6ec;
+    position: absolute;
+    padding: 25px;
+    margin-top: 90px;
+    left: 20%;
+    z-index: 2;
 }
