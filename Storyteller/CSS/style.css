@@ -9,6 +9,13 @@ body{
     font-family: 'Syne', sans-serif;
     font-size: 18px;
 }
+h2, h3 {
+    font-family: 'Germania One', cursive;
+}
+h3 {    
+    font-size: 48px;
+    color: #323131;
+}
 div{
     display: block;
 }
@@ -37,6 +44,10 @@ div{
     padding: 20px;
 }
 .journey{
+    color: #fff;
+    font-size: 18px;
+    width: 50%;
+    max-width: 550px;
     width: 1440px;
     color: #fff;
     position: absolute;
@@ -46,13 +57,10 @@ div{
     overflow: hidden;
 }
 .journey h1{
+    font-family: 'germania one';
     font-size: 62px;
     letter-spacing: 3px;
     margin: 0;
-}
-.journey h2{
-    font-size: 18px;
-    letter-spacing: 3px;
 }
 .journey a{
     color: white;
@@ -72,7 +80,8 @@ div{
     border: none;
     border-radius: 0px 15px 0px 15px;
     color: white;
-    padding: 23px 73px;
+    width: 35%;
+    padding: 50px 75px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -299,18 +308,18 @@ h3{
 .newsletter-content button:hover {
     background: #500c7a;
 }
-#attribution {
+#attributions {
     background: #500c7a;
     color: #fff;
     padding: 40px 0;
 }
 
-#attribution a{
+#attributions a{
     background: #febf46;
     color: #000;
     text-decoration: none;
 }
-#attribution a:hover{
+#attributions a:hover{
     background: #da6d14;
     color: #fff;
 }
