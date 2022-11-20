@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Germania+One&family=Syne:wght@400;700&display=swap');
 body, html{
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
 }
 div{
     display: block;
@@ -35,9 +40,9 @@ div{
     width: 1440px;
     color: #fff;
     position: absolute;
-    top: 47%;
-    left: 100%;
-    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    transform: translatey(-50%);
     overflow: hidden;
 }
 .journey h1{
@@ -110,7 +115,7 @@ div{
     z-index: 2;
 }
 #about .box1{
-    background: url(../img/dices.png) no-repeat 90% 90%, #fff6ec;
+    background: url(../img/images/dice.png) no-repeat 90% 90%, #fff6ec;
     width: 900px;
     padding: 50px;
     margin-top: 5px;
@@ -182,7 +187,7 @@ h3{
     height: 100%;
     position: relative;
 }
-#arkemyr .campaign-logo {
+.campaign-logo {
     position: relative;
     bottom: -65%;
     display: flex;
@@ -190,34 +195,10 @@ h3{
     padding: 10px;
     justify-content: center;
 }
-#bvale .campaign-logo {
-    position: relative;
-    bottom: -75%;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    justify-content: center;
-}
-#levia .campaign-logo {
-    position: relative;
-    bottom: 40%;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    justify-content: center;
-}
-#bar .campaign-logo {
-    position: relative;
-    bottom: 40%;
-    display: flex;
-    width: 100%;
-    padding: 10px;
-    justify-content: center;
-}
 #arkemyr{
-background-image: url(../img/images/castle.jpg);
-background-position: 35% 50%;
-background-size: cover;
+    background-image: url(../img/images/castle.jpg);
+    background-position: 35% 50%;
+    background-size: cover;
 }
 #bvale {
     background-image: url(../img/images/feywild.jpg);
@@ -233,4 +214,103 @@ background-size: cover;
     background-image: url(../img/images/tavern.jpg);
     background-position: 60% 50%;
     background-size: cover;
+}
+.campaign-slide-nav {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #500c7a;
+    display: flex;
+    justify-content: flex-end;
+}
+.campaign-slide-nav > * {
+    border: solid 2px #500c7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.campaign-slide-nav > *:hover {
+    background-color: #500c7a;
+    color: #fff;
+}
+.slide-prev {
+    margin-right: -2px;
+}
+#newsletter {
+    text-align: center;
+    padding: 55px;
+    background: #efefef;
+    position: relative;
+    margin: 115px 0 50px;
+}
+#newsletter::after {
+    content: '';    
+    background: url(../img/images/Shelves\ 2.png);
+    background-position: 50% 70%;
+    opacity: 0.07;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.newsletter-content {
+    max-width: 770px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+.newsletter-content h3 {
+    color: #500c7a;
+}
+.newsletter-content p {
+    margin: 20px 0;
+}
+.newsletter-content form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-content input {
+    width: 89%;
+    border: solid 2px #500c7a;
+    padding: 15px;
+}
+.newsletter-content input::placeholder {
+    color: #a996b2;
+    font-family: 'Syne', sans-serif;
+}
+
+.newsletter-content button {
+    width: 10%;
+    background-image: linear-gradient(to right, #500c7a, #9f2f87);
+    border: none;    
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+}
+.newsletter-content button:hover {
+    background: #500c7a;
+}
+#attribution {
+    background: #500c7a;
+    color: #fff;
+    padding: 40px 0;
+}
+
+#attribution a{
+    background: #febf46;
+    color: #000;
+    text-decoration: none;
+}
+#attribution a:hover{
+    background: #da6d14;
+    color: #fff;
 }
