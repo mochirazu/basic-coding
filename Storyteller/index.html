@@ -7,6 +7,10 @@
         <title>⚔️Storyteller</title>
 
         <link rel="stylesheet" href="../Storyteller/CSS/style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body id="story">
         <div class="top">
@@ -50,9 +54,9 @@
         </div>
         <div id="campaign">
             <h3>⚔️Campaign⚔️</h3>
-            <div class="campaign-slide">
+            <div class="swiper campaign-slide">
                 <div class="swiper-wrapper campaign-wrap">
-                    <div id="arkemyr" class="slide-card">
+                    <div id="arkemyr" class="swiper-slide slide-card">
                         <div class="gradient"></div>
                         <a href="">
                             <span class="campaign-logo">
@@ -60,7 +64,7 @@
                             </span>
                         </a>
                     </div>
-                    <div id="bvale" class="slide-card">
+                    <div id="bvale" class="swiper-slide slide-card">
                         <div class="gradient"></div>
                         <a href="">
                             <span class="campaign-logo">
@@ -68,7 +72,7 @@
                             </span>
                         </a>
                     </div>
-                    <div id="levia" class="slide-card">
+                    <div id="levia" class="swiper-slide slide-card">
                         <div class="gradient"></div>
                         <a href="">
                             <span class="campaign-logo">
@@ -76,7 +80,7 @@
                             </span>
                         </a>
                     </div>
-                    <div id="bar" class="slide-card">
+                    <div id="bar" class="swiper-slide slide-card">
                         <div class="gradient"></div>
                         <a href="">
                             <span class="campaign-logo">
@@ -110,5 +114,35 @@
                 Attributions: assets by <a href="https://www.freepik.com/author/dgim-studio">dgim-studio</a>, <a href="https://www.freepik.com/author/upklyak">upklyak</a>,  Dragon icons created by <a href="https://www.flaticon.com/free-icons/dragon">Freepik - Flaticon</a>
             </div>
         </div>
+
+        <script src="js/observer.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.campaign-slide', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.slide-next',
+                prevEl: '.slide-prev',
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 45,
+                },
+            },
+        });
+    </script>
     </body>
 </html>
