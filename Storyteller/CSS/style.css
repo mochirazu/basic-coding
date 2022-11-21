@@ -173,7 +173,10 @@ h3{
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.campaign-wrap{
+    display: flex;
 }
 .slide-card {
     width: 100%;
